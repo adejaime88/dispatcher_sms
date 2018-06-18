@@ -1,0 +1,2 @@
+Transby Shop: %CLIENTE%, informamos que voce possui uma nota em aberto com vencimento no dia %DIA% no valor de %VALOR%. Obrigado!
+

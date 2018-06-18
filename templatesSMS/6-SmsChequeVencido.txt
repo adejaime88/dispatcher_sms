@@ -1,0 +1,2 @@
+Transby Shop: %CLIENTE%, Informamos que o cheque n. %CHEQUE% foi devolvido, pedimos que entre em contato conosco. (92)3182-7000
+

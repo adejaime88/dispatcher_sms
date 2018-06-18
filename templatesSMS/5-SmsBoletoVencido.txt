@@ -1,0 +1,2 @@
+Transby Shop: %CLIENTE%, Nao identificamos o pagamento de sua fatura %FATURA% com vencimento dia %DIA%, pedimos que entre em contato conosco. (92)3182-7000
+

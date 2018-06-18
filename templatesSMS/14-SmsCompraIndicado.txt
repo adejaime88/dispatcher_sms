@@ -1,0 +1,1 @@
+Transby Shop: %CLIENTE%, Parabéns! o cliente que você indicou %CLIENTE-INDICADO% efetuou uma compra no valor R$ %VALOR-COMPRA% no dia %DIA-COMPRA%.

@@ -1,0 +1,2 @@
+Transby Shop: %CLIENTE%, Sua fatura %FATURA% vencera no %DIA%, Valor %VALOR% cod barras %CODBARRAS%. Obrigado!
+

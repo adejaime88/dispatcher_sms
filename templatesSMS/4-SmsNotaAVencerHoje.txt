@@ -1,0 +1,2 @@
+Transby Shop: %CLIENTE%, Sua nota em aberto vence hoje no valor de %VALOR%. Obrigado!
+
