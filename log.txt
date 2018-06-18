@@ -37607,3 +37607,905 @@ t: select 1 from logSMS where tipoSMS = "Boleto a Vencer Hoje" and originalId = 
 2018-06-18 15:10:11.619143 - Info - DBLogDisconnect - in
 2018-06-18 15:10:11.619759 - Info - DBLogDisconnect - out
 2018-06-18 15:10:11.620109 - Info - execute - out
+2018-06-18 16:10:00.802653 - Info - execute - in
+2018-06-18 16:10:00.817838 - Info - DBConnect - in
+2018-06-18 16:10:00.929494 - Info - DBConnect - out
+2018-06-18 16:10:00.930058 - Info - DBLogConnect - in
+2018-06-18 16:10:00.973048 - Info - DBLogConnect - out
+2018-06-18 16:10:00.973552 - Info - DBOpen - in
+2018-06-18 16:10:00.979463 - Info - DBOpen - out
+2018-06-18 16:10:00.979814 - Info - DBFirst - in
+2018-06-18 16:10:00.980271 - Info - DBFirst - out
+2018-06-18 16:10:00.980624 - Info - execution count: 0
+2018-06-18 16:10:00.980970 - Info - VerifySMS - in
+2018-06-18 16:10:00.981324 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "6136" and chaveRegistro = "11-18/06/18-272510-6136"
+2018-06-18 16:10:01.184817 - Info - VerifySMS - SMS ainda não processado
+2018-06-18 16:10:01.185518 - Info - VerifySMS - out
+2018-06-18 16:10:01.185985 - Info - MakeSMS - in
+2018-06-18 16:10:01.186381 - Info - MakeSMS - out
+2018-06-18 16:10:01.186723 - Info - SendSMS - in
+2018-06-18 16:10:01.187602 - Info - DBLogGetNewSMSId - in
+2018-06-18 16:10:01.220571 - Info - DBLogGetNewSMSId - out
+2018-06-18 16:10:02.551711 - Info - SMS sent - result: 1 - url:http://api.p1.sms.telle.group/integracao.do?account=marketing@transbyshop.com.br&code=i92mudar&type=E&id=6433&dispatch=send&msg=Transby+Shop%3A+MARIA+%2C+Obrigado+por+comprar+conosco%2C+Voce+e+muito+importante+para+nos%21&to=92992579527&tipoEnvio=2
+2018-06-18 16:10:02.563634 - Info - SendSMS - out
+2018-06-18 16:10:02.563907 - Info - DBUpdate - in
+2018-06-18 16:10:02.564525 - Info - DBLogGetNextId - in
+2018-06-18 16:10:02.610195 - Info - DBLogGetNextId - out
+2018-06-18 16:10:02.610683 - Info - DBUpdate - originalId: 6136 - id: 1345 - cliente: MARIA  - tipoSMS: Agradecimento de Compra - dataSMS: 2018-06-18 16:10:02 - dataVenc:  - valor: 509 - cpfcnpj:  - nota:  - cheque:  - codbarras:  - smsTransmitido: 1 - smsObs:  - telefone: 92992579527 - chaveRegistro: 11-18/06/18-272510-6136
+2018-06-18 16:10:02.644092 - Info - DBUpdate - out
+2018-06-18 16:10:02.644509 - Info - DBNext - in
+2018-06-18 16:10:02.645111 - Info - DBNext - out
+2018-06-18 16:10:02.645641 - Info - execution count: 1
+2018-06-18 16:10:02.647288 - Info - VerifySMS - in
+2018-06-18 16:10:02.647821 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "18827" and chaveRegistro = "11-18/06/18-145224-18827"
+2018-06-18 16:10:02.649700 - Info - VerifySMS - SMS já processado
+2018-06-18 16:10:02.650209 - Info - VerifySMS - out
+2018-06-18 16:10:02.650836 - Info - DBNext - in
+2018-06-18 16:10:02.651436 - Info - DBNext - out
+2018-06-18 16:10:02.651911 - Info - execution count: 2
+2018-06-18 16:10:02.652486 - Info - VerifySMS - in
+2018-06-18 16:10:02.652877 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "6724" and chaveRegistro = "11-18/06/18-145225-6724"
+2018-06-18 16:10:02.654661 - Info - VerifySMS - SMS já processado
+2018-06-18 16:10:02.655050 - Info - VerifySMS - out
+2018-06-18 16:10:02.655535 - Info - DBNext - in
+2018-06-18 16:10:02.656061 - Info - DBNext - out
+2018-06-18 16:10:02.656460 - Info - execution count: 3
+2018-06-18 16:10:02.661373 - Info - VerifySMS - in
+2018-06-18 16:10:02.670861 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "11189" and chaveRegistro = "11-18/06/18-145233-11189"
+2018-06-18 16:10:02.672529 - Info - VerifySMS - SMS ainda não processado
+2018-06-18 16:10:02.672915 - Info - VerifySMS - out
+2018-06-18 16:10:02.673414 - Info - MakeSMS - in
+2018-06-18 16:10:02.673882 - Info - MakeSMS - out
+2018-06-18 16:10:02.674312 - Info - SendSMS - in
+2018-06-18 16:10:02.674883 - Info - DBLogGetNewSMSId - in
+2018-06-18 16:10:02.709655 - Info - DBLogGetNewSMSId - out
+2018-06-18 16:10:03.697548 - Info - SMS sent - result: 1 - url:http://api.p1.sms.telle.group/integracao.do?account=marketing@transbyshop.com.br&code=i92mudar&type=E&id=6434&dispatch=send&msg=Transby+Shop%3A+IVONE+%2C+Obrigado+por+comprar+conosco%2C+Voce+e+muito+importante+para+nos%21&to=92993080539&tipoEnvio=2
+2018-06-18 16:10:03.709453 - Info - SendSMS - out
+2018-06-18 16:10:03.709748 - Info - DBUpdate - in
+2018-06-18 16:10:03.710312 - Info - DBLogGetNextId - in
+2018-06-18 16:10:03.758703 - Info - DBLogGetNextId - out
+2018-06-18 16:10:03.759157 - Info - DBUpdate - originalId: 11189 - id: 1346 - cliente: IVONE  - tipoSMS: Agradecimento de Compra - dataSMS: 2018-06-18 16:10:03 - dataVenc:  - valor: 19 - cpfcnpj:  - nota:  - cheque:  - codbarras:  - smsTransmitido: 1 - smsObs:  - telefone: 92993080539 - chaveRegistro: 11-18/06/18-145233-11189
+2018-06-18 16:10:03.792544 - Info - DBUpdate - out
+2018-06-18 16:10:03.792912 - Info - DBNext - in
+2018-06-18 16:10:03.794497 - Info - DBNext - out
+2018-06-18 16:10:03.795075 - Info - execution count: 4
+2018-06-18 16:10:03.795733 - Info - VerifySMS - in
+2018-06-18 16:10:03.796263 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "17310" and chaveRegistro = "11-18/06/18-34914-17310"
+2018-06-18 16:10:03.798178 - Info - VerifySMS - SMS ainda não processado
+2018-06-18 16:10:03.798581 - Info - VerifySMS - out
+2018-06-18 16:10:03.799173 - Info - MakeSMS - in
+2018-06-18 16:10:03.799830 - Info - MakeSMS - out
+2018-06-18 16:10:03.802286 - Info - SendSMS - in
+2018-06-18 16:10:03.812096 - Info - DBLogGetNewSMSId - in
+2018-06-18 16:10:03.858652 - Info - DBLogGetNewSMSId - out
+2018-06-18 16:10:04.558518 - Info - SMS sent - result: 1 - url:http://api.p1.sms.telle.group/integracao.do?account=marketing@transbyshop.com.br&code=i92mudar&type=E&id=6435&dispatch=send&msg=Transby+Shop%3A+ADEJAIME+%2C+Obrigado+por+comprar+conosco%2C+Voce+e+muito+importante+para+nos%21&to=92981255539&tipoEnvio=2
+2018-06-18 16:10:04.575505 - Info - SendSMS - out
+2018-06-18 16:10:04.575808 - Info - DBUpdate - in
+2018-06-18 16:10:04.590021 - Info - DBLogGetNextId - in
+2018-06-18 16:10:04.633480 - Info - DBLogGetNextId - out
+2018-06-18 16:10:04.634063 - Info - DBUpdate - originalId: 17310 - id: 1347 - cliente: ADEJAIME  - tipoSMS: Agradecimento de Compra - dataSMS: 2018-06-18 16:10:04 - dataVenc:  - valor: 12.019 - cpfcnpj:  - nota:  - cheque:  - codbarras:  - smsTransmitido: 1 - smsObs:  - telefone: 92981255539 - chaveRegistro: 11-18/06/18-34914-17310
+2018-06-18 16:10:04.674624 - Info - DBUpdate - out
+2018-06-18 16:10:04.675157 - Info - DBNext - in
+2018-06-18 16:10:04.676862 - Info - DBNext - out
+2018-06-18 16:10:04.677483 - Info - execution count: 5
+2018-06-18 16:10:04.678053 - Info - VerifySMS - in
+2018-06-18 16:10:04.678543 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "1223" and chaveRegistro = "11-18/06/18-272491-1223"
+2018-06-18 16:10:04.681224 - Info - VerifySMS - SMS já processado
+2018-06-18 16:10:04.681616 - Info - VerifySMS - out
+2018-06-18 16:10:04.682106 - Info - DBNext - in
+2018-06-18 16:10:04.682738 - Info - DBNext - out
+2018-06-18 16:10:04.690413 - Info - execution count: 6
+2018-06-18 16:10:04.690913 - Info - VerifySMS - in
+2018-06-18 16:10:04.691478 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "14571" and chaveRegistro = "11-18/06/18-145208-14571"
+2018-06-18 16:10:04.693447 - Info - VerifySMS - SMS já processado
+2018-06-18 16:10:04.694659 - Info - VerifySMS - out
+2018-06-18 16:10:04.695229 - Info - DBNext - in
+2018-06-18 16:10:04.695722 - Info - DBNext - out
+2018-06-18 16:10:04.696135 - Info - execution count: 7
+2018-06-18 16:10:04.696763 - Info - VerifySMS - in
+2018-06-18 16:10:04.697377 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "19497" and chaveRegistro = "11-18/06/18-22199-19497"
+2018-06-18 16:10:04.699322 - Info - VerifySMS - SMS já processado
+2018-06-18 16:10:04.699704 - Info - VerifySMS - out
+2018-06-18 16:10:04.700329 - Info - DBNext - in
+2018-06-18 16:10:04.700941 - Info - DBNext - out
+2018-06-18 16:10:04.701406 - Info - execution count: 8
+2018-06-18 16:10:04.701958 - Info - VerifySMS - in
+2018-06-18 16:10:04.702443 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "19135" and chaveRegistro = "11-18/06/18-272507-19135"
+2018-06-18 16:10:04.704279 - Info - VerifySMS - SMS ainda não processado
+2018-06-18 16:10:04.704708 - Info - VerifySMS - out
+2018-06-18 16:10:04.705126 - Info - MakeSMS - in
+2018-06-18 16:10:04.705509 - Info - MakeSMS - out
+2018-06-18 16:10:04.705966 - Info - SendSMS - in
+2018-06-18 16:10:04.706679 - Info - DBLogGetNewSMSId - in
+2018-06-18 16:10:04.749907 - Info - DBLogGetNewSMSId - out
+2018-06-18 16:10:05.382069 - Info - SMS sent - result: 1 - url:http://api.p1.sms.telle.group/integracao.do?account=marketing@transbyshop.com.br&code=i92mudar&type=E&id=6436&dispatch=send&msg=Transby+Shop%3A+ADESON+%2C+Obrigado+por+comprar+conosco%2C+Voce+e+muito+importante+para+nos%21&to=97984166629&tipoEnvio=2
+2018-06-18 16:10:05.396556 - Info - SendSMS - out
+2018-06-18 16:10:05.396867 - Info - DBUpdate - in
+2018-06-18 16:10:05.397486 - Info - DBLogGetNextId - in
+2018-06-18 16:10:05.432548 - Info - DBLogGetNextId - out
+2018-06-18 16:10:05.432951 - Info - DBUpdate - originalId: 19135 - id: 1348 - cliente: ADESON  - tipoSMS: Agradecimento de Compra - dataSMS: 2018-06-18 16:10:05 - dataVenc:  - valor: 1.531 - cpfcnpj:  - nota:  - cheque:  - codbarras:  - smsTransmitido: 1 - smsObs:  - telefone: 97984166629 - chaveRegistro: 11-18/06/18-272507-19135
+2018-06-18 16:10:05.473590 - Info - DBUpdate - out
+2018-06-18 16:10:05.473942 - Info - DBNext - in
+2018-06-18 16:10:05.475549 - Info - DBNext - out
+2018-06-18 16:10:05.476021 - Info - execution count: 9
+2018-06-18 16:10:05.476446 - Info - VerifySMS - in
+2018-06-18 16:10:05.476818 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "16175" and chaveRegistro = "11-18/06/18-145240-16175"
+2018-06-18 16:10:05.479464 - Info - VerifySMS - SMS ainda não processado
+2018-06-18 16:10:05.486390 - Info - VerifySMS - out
+2018-06-18 16:10:05.487012 - Info - MakeSMS - in
+2018-06-18 16:10:05.487546 - Info - MakeSMS - out
+2018-06-18 16:10:05.488081 - Info - SendSMS - in
+2018-06-18 16:10:05.488780 - Info - DBLogGetNewSMSId - in
+2018-06-18 16:10:05.515782 - Info - DBLogGetNewSMSId - out
+2018-06-18 16:10:06.323389 - Info - SMS sent - result: 1 - url:http://api.p1.sms.telle.group/integracao.do?account=marketing@transbyshop.com.br&code=i92mudar&type=E&id=6437&dispatch=send&msg=Transby+Shop%3A+LENILCE+%2C+Obrigado+por+comprar+conosco%2C+Voce+e+muito+importante+para+nos%21&to=929910891177&tipoEnvio=2
+2018-06-18 16:10:06.374332 - Info - SendSMS - out
+2018-06-18 16:10:06.374791 - Info - DBUpdate - in
+2018-06-18 16:10:06.376033 - Info - DBLogGetNextId - in
+2018-06-18 16:10:06.406888 - Info - DBLogGetNextId - out
+2018-06-18 16:10:06.407369 - Info - DBUpdate - originalId: 16175 - id: 1349 - cliente: LENILCE  - tipoSMS: Agradecimento de Compra - dataSMS: 2018-06-18 16:10:06 - dataVenc:  - valor: 79 - cpfcnpj:  - nota:  - cheque:  - codbarras:  - smsTransmitido: 1 - smsObs:  - telefone: 929910891177 - chaveRegistro: 11-18/06/18-145240-16175
+2018-06-18 16:10:06.456106 - Info - DBUpdate - out
+2018-06-18 16:10:06.472427 - Info - DBNext - in
+2018-06-18 16:10:06.472779 - Info - DBNext - out
+2018-06-18 16:10:06.473323 - Info - execution count: 10
+2018-06-18 16:10:06.475029 - Info - VerifySMS - in
+2018-06-18 16:10:06.475513 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "4870" and chaveRegistro = "11-18/06/18-145243-4870"
+2018-06-18 16:10:06.477569 - Info - VerifySMS - SMS ainda não processado
+2018-06-18 16:10:06.477899 - Info - VerifySMS - out
+2018-06-18 16:10:06.478678 - Info - MakeSMS - in
+2018-06-18 16:10:06.479200 - Info - MakeSMS - out
+2018-06-18 16:10:06.479635 - Info - SendSMS - in
+2018-06-18 16:10:06.480210 - Info - DBLogGetNewSMSId - in
+2018-06-18 16:10:06.572283 - Info - DBLogGetNewSMSId - out
+2018-06-18 16:10:07.716788 - Info - SMS sent - result: 1 - url:http://api.p1.sms.telle.group/integracao.do?account=marketing@transbyshop.com.br&code=i92mudar&type=E&id=6438&dispatch=send&msg=Transby+Shop%3A+MARIA+%2C+Obrigado+por+comprar+conosco%2C+Voce+e+muito+importante+para+nos%21&to=92996033858&tipoEnvio=2
+2018-06-18 16:10:07.730649 - Info - SendSMS - out
+2018-06-18 16:10:07.731035 - Info - DBUpdate - in
+2018-06-18 16:10:07.731531 - Info - DBLogGetNextId - in
+2018-06-18 16:10:07.771279 - Info - DBLogGetNextId - out
+2018-06-18 16:10:07.771805 - Info - DBUpdate - originalId: 4870 - id: 1350 - cliente: MARIA  - tipoSMS: Agradecimento de Compra - dataSMS: 2018-06-18 16:10:07 - dataVenc:  - valor: 409 - cpfcnpj:  - nota:  - cheque:  - codbarras:  - smsTransmitido: 1 - smsObs:  - telefone: 92996033858 - chaveRegistro: 11-18/06/18-145243-4870
+2018-06-18 16:10:07.830422 - Info - DBUpdate - out
+2018-06-18 16:10:07.830883 - Info - DBNext - in
+2018-06-18 16:10:07.832118 - Info - DBNext - out
+2018-06-18 16:10:07.832823 - Info - execution count: 11
+2018-06-18 16:10:07.833415 - Info - VerifySMS - in
+2018-06-18 16:10:07.834260 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "11216" and chaveRegistro = "11-18/06/18-145209-11216"
+2018-06-18 16:10:07.836161 - Info - VerifySMS - SMS já processado
+2018-06-18 16:10:07.836539 - Info - VerifySMS - out
+2018-06-18 16:10:07.837017 - Info - DBNext - in
+2018-06-18 16:10:07.837587 - Info - DBNext - out
+2018-06-18 16:10:07.838066 - Info - execution count: 12
+2018-06-18 16:10:07.838662 - Info - VerifySMS - in
+2018-06-18 16:10:07.839017 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "9180" and chaveRegistro = "11-18/06/18-272486-9180"
+2018-06-18 16:10:07.840773 - Info - VerifySMS - SMS já processado
+2018-06-18 16:10:07.842418 - Info - VerifySMS - out
+2018-06-18 16:10:07.843028 - Info - DBNext - in
+2018-06-18 16:10:07.843602 - Info - DBNext - out
+2018-06-18 16:10:07.844038 - Info - execution count: 13
+2018-06-18 16:10:07.844451 - Info - VerifySMS - in
+2018-06-18 16:10:07.844901 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "1325" and chaveRegistro = "11-18/06/18-145213-1325"
+2018-06-18 16:10:07.846642 - Info - VerifySMS - SMS já processado
+2018-06-18 16:10:07.847101 - Info - VerifySMS - out
+2018-06-18 16:10:07.847666 - Info - DBNext - in
+2018-06-18 16:10:07.848195 - Info - DBNext - out
+2018-06-18 16:10:07.848604 - Info - execution count: 14
+2018-06-18 16:10:07.858670 - Info - VerifySMS - in
+2018-06-18 16:10:07.859025 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "19439" and chaveRegistro = "11-18/06/18-145214-19439"
+2018-06-18 16:10:07.860810 - Info - VerifySMS - SMS já processado
+2018-06-18 16:10:07.861187 - Info - VerifySMS - out
+2018-06-18 16:10:07.861826 - Info - DBNext - in
+2018-06-18 16:10:07.862421 - Info - DBNext - out
+2018-06-18 16:10:07.862839 - Info - execution count: 15
+2018-06-18 16:10:07.863168 - Info - VerifySMS - in
+2018-06-18 16:10:07.863818 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "18076" and chaveRegistro = "11-18/06/18-145217-18076"
+2018-06-18 16:10:07.865531 - Info - VerifySMS - SMS já processado
+2018-06-18 16:10:07.865995 - Info - VerifySMS - out
+2018-06-18 16:10:07.866378 - Info - DBNext - in
+2018-06-18 16:10:07.866791 - Info - DBNext - out
+2018-06-18 16:10:07.874473 - Info - execution count: 16
+2018-06-18 16:10:07.874813 - Info - VerifySMS - in
+2018-06-18 16:10:07.875348 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "19438" and chaveRegistro = "11-18/06/18-145219-19438"
+2018-06-18 16:10:07.877038 - Info - VerifySMS - SMS já processado
+2018-06-18 16:10:07.877456 - Info - VerifySMS - out
+2018-06-18 16:10:07.877979 - Info - DBNext - in
+2018-06-18 16:10:07.878535 - Info - DBNext - out
+2018-06-18 16:10:07.878947 - Info - execution count: 17
+2018-06-18 16:10:07.879372 - Info - VerifySMS - in
+2018-06-18 16:10:07.879884 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "15989" and chaveRegistro = "11-18/06/18-272505-15989"
+2018-06-18 16:10:07.885130 - Info - VerifySMS - SMS ainda não processado
+2018-06-18 16:10:07.885463 - Info - VerifySMS - out
+2018-06-18 16:10:07.886032 - Info - MakeSMS - in
+2018-06-18 16:10:07.886585 - Info - MakeSMS - out
+2018-06-18 16:10:07.887173 - Info - SendSMS - in
+2018-06-18 16:10:07.887985 - Info - DBLogGetNewSMSId - in
+2018-06-18 16:10:07.921031 - Info - DBLogGetNewSMSId - out
+2018-06-18 16:10:08.612189 - Info - SMS sent - result: 1 - url:http://api.p1.sms.telle.group/integracao.do?account=marketing@transbyshop.com.br&code=i92mudar&type=E&id=6439&dispatch=send&msg=Transby+Shop%3A+VANIA+%2C+Obrigado+por+comprar+conosco%2C+Voce+e+muito+importante+para+nos%21&to=92993995442&tipoEnvio=2
+2018-06-18 16:10:08.619529 - Info - SendSMS - out
+2018-06-18 16:10:08.619826 - Info - DBUpdate - in
+2018-06-18 16:10:08.620371 - Info - DBLogGetNextId - in
+2018-06-18 16:10:08.653591 - Info - DBLogGetNextId - out
+2018-06-18 16:10:08.653960 - Info - DBUpdate - originalId: 15989 - id: 1351 - cliente: VANIA  - tipoSMS: Agradecimento de Compra - dataSMS: 2018-06-18 16:10:08 - dataVenc:  - valor: 239 - cpfcnpj:  - nota:  - cheque:  - codbarras:  - smsTransmitido: 1 - smsObs:  - telefone: 92993995442 - chaveRegistro: 11-18/06/18-272505-15989
+2018-06-18 16:10:08.687700 - Info - DBUpdate - out
+2018-06-18 16:10:08.688071 - Info - DBNext - in
+2018-06-18 16:10:08.688680 - Info - DBNext - out
+2018-06-18 16:10:08.689135 - Info - execution count: 18
+2018-06-18 16:10:08.689685 - Info - VerifySMS - in
+2018-06-18 16:10:08.690442 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "18321" and chaveRegistro = "11-18/06/18-145251-18321"
+2018-06-18 16:10:08.692359 - Info - VerifySMS - SMS ainda não processado
+2018-06-18 16:10:08.693835 - Info - VerifySMS - out
+2018-06-18 16:10:08.698258 - Info - MakeSMS - in
+2018-06-18 16:10:08.698671 - Info - MakeSMS - out
+2018-06-18 16:10:08.699123 - Info - SendSMS - in
+2018-06-18 16:10:08.699647 - Info - DBLogGetNewSMSId - in
+2018-06-18 16:10:08.736762 - Info - DBLogGetNewSMSId - out
+2018-06-18 16:10:10.199736 - Info - SMS sent - result: 1 - url:http://api.p1.sms.telle.group/integracao.do?account=marketing@transbyshop.com.br&code=i92mudar&type=E&id=6440&dispatch=send&msg=Transby+Shop%3A+ITACIARA+%2C+Obrigado+por+comprar+conosco%2C+Voce+e+muito+importante+para+nos%21&to=92993376956&tipoEnvio=2
+2018-06-18 16:10:10.211280 - Info - SendSMS - out
+2018-06-18 16:10:10.211693 - Info - DBUpdate - in
+2018-06-18 16:10:10.212092 - Info - DBLogGetNextId - in
+2018-06-18 16:10:10.243749 - Info - DBLogGetNextId - out
+2018-06-18 16:10:10.244135 - Info - DBUpdate - originalId: 18321 - id: 1352 - cliente: ITACIARA  - tipoSMS: Agradecimento de Compra - dataSMS: 2018-06-18 16:10:10 - dataVenc:  - valor: 169 - cpfcnpj:  - nota:  - cheque:  - codbarras:  - smsTransmitido: 1 - smsObs:  - telefone: 92993376956 - chaveRegistro: 11-18/06/18-145251-18321
+2018-06-18 16:10:10.286350 - Info - DBUpdate - out
+2018-06-18 16:10:10.286817 - Info - DBNext - in
+2018-06-18 16:10:10.288467 - Info - DBNext - out
+2018-06-18 16:10:10.289190 - Info - execution count: 19
+2018-06-18 16:10:10.289691 - Info - VerifySMS - in
+2018-06-18 16:10:10.290231 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "18615" and chaveRegistro = "11-18/06/18-272479-18615"
+2018-06-18 16:10:10.292160 - Info - VerifySMS - SMS já processado
+2018-06-18 16:10:10.292650 - Info - VerifySMS - out
+2018-06-18 16:10:10.293298 - Info - DBNext - in
+2018-06-18 16:10:10.294078 - Info - DBNext - out
+2018-06-18 16:10:10.294718 - Info - execution count: 20
+2018-06-18 16:10:10.295347 - Info - VerifySMS - in
+2018-06-18 16:10:10.296043 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "18060" and chaveRegistro = "11-18/06/18-34904-18060"
+2018-06-18 16:10:10.297972 - Info - VerifySMS - SMS já processado
+2018-06-18 16:10:10.298436 - Info - VerifySMS - out
+2018-06-18 16:10:10.298988 - Info - DBNext - in
+2018-06-18 16:10:10.299453 - Info - DBNext - out
+2018-06-18 16:10:10.299879 - Info - execution count: 21
+2018-06-18 16:10:10.300340 - Info - VerifySMS - in
+2018-06-18 16:10:10.300852 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "859" and chaveRegistro = "11-18/06/18-272494-859"
+2018-06-18 16:10:10.303016 - Info - VerifySMS - SMS já processado
+2018-06-18 16:10:10.303873 - Info - VerifySMS - out
+2018-06-18 16:10:10.306215 - Info - DBNext - in
+2018-06-18 16:10:10.314303 - Info - DBNext - out
+2018-06-18 16:10:10.314837 - Info - execution count: 22
+2018-06-18 16:10:10.315303 - Info - VerifySMS - in
+2018-06-18 16:10:10.315684 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "1696" and chaveRegistro = "11-18/06/18-272496-1696"
+2018-06-18 16:10:10.317357 - Info - VerifySMS - SMS já processado
+2018-06-18 16:10:10.319009 - Info - VerifySMS - out
+2018-06-18 16:10:10.319454 - Info - DBNext - in
+2018-06-18 16:10:10.319912 - Info - DBNext - out
+2018-06-18 16:10:10.322320 - Info - execution count: 23
+2018-06-18 16:10:10.322759 - Info - VerifySMS - in
+2018-06-18 16:10:10.323196 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "19724" and chaveRegistro = "11-18/06/18-34905-19724"
+2018-06-18 16:10:10.324908 - Info - VerifySMS - SMS já processado
+2018-06-18 16:10:10.325230 - Info - VerifySMS - out
+2018-06-18 16:10:10.326368 - Info - DBNext - in
+2018-06-18 16:10:10.327001 - Info - DBNext - out
+2018-06-18 16:10:10.327595 - Info - execution count: 24
+2018-06-18 16:10:10.328083 - Info - VerifySMS - in
+2018-06-18 16:10:10.328405 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "19497" and chaveRegistro = "11-18/06/18-22198-19497"
+2018-06-18 16:10:10.330047 - Info - VerifySMS - SMS já processado
+2018-06-18 16:10:10.330381 - Info - VerifySMS - out
+2018-06-18 16:10:10.330882 - Info - DBNext - in
+2018-06-18 16:10:10.331491 - Info - DBNext - out
+2018-06-18 16:10:10.332075 - Info - execution count: 25
+2018-06-18 16:10:10.334354 - Info - VerifySMS - in
+2018-06-18 16:10:10.337038 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "18076" and chaveRegistro = "11-18/06/18-145216-18076"
+2018-06-18 16:10:10.338717 - Info - VerifySMS - SMS já processado
+2018-06-18 16:10:10.339089 - Info - VerifySMS - out
+2018-06-18 16:10:10.339568 - Info - DBNext - in
+2018-06-18 16:10:10.340141 - Info - DBNext - out
+2018-06-18 16:10:10.340570 - Info - execution count: 26
+2018-06-18 16:10:10.341168 - Info - VerifySMS - in
+2018-06-18 16:10:10.341539 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "18716" and chaveRegistro = "11-18/06/18-145226-18716"
+2018-06-18 16:10:10.343423 - Info - VerifySMS - SMS já processado
+2018-06-18 16:10:10.343814 - Info - VerifySMS - out
+2018-06-18 16:10:10.344342 - Info - DBNext - in
+2018-06-18 16:10:10.344912 - Info - DBNext - out
+2018-06-18 16:10:10.345300 - Info - execution count: 27
+2018-06-18 16:10:10.345896 - Info - VerifySMS - in
+2018-06-18 16:10:10.346299 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "15479" and chaveRegistro = "11-18/06/18-272501-15479"
+2018-06-18 16:10:10.348170 - Info - VerifySMS - SMS já processado
+2018-06-18 16:10:10.348601 - Info - VerifySMS - out
+2018-06-18 16:10:10.352406 - Info - DBNext - in
+2018-06-18 16:10:10.352902 - Info - DBNext - out
+2018-06-18 16:10:10.353311 - Info - execution count: 28
+2018-06-18 16:10:10.353827 - Info - VerifySMS - in
+2018-06-18 16:10:10.354231 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "2169" and chaveRegistro = "11-18/06/18-272503-2169"
+2018-06-18 16:10:10.355979 - Info - VerifySMS - SMS ainda não processado
+2018-06-18 16:10:10.356314 - Info - VerifySMS - out
+2018-06-18 16:10:10.356749 - Info - MakeSMS - in
+2018-06-18 16:10:10.357128 - Info - MakeSMS - out
+2018-06-18 16:10:10.357589 - Info - SendSMS - in
+2018-06-18 16:10:10.358213 - Info - DBLogGetNewSMSId - in
+2018-06-18 16:10:10.418996 - Info - DBLogGetNewSMSId - out
+2018-06-18 16:10:11.227505 - Info - SMS sent - result: 1 - url:http://api.p1.sms.telle.group/integracao.do?account=marketing@transbyshop.com.br&code=i92mudar&type=E&id=6441&dispatch=send&msg=Transby+Shop%3A+JAQUELINE+%2C+Obrigado+por+comprar+conosco%2C+Voce+e+muito+importante+para+nos%21&to=92992173767&tipoEnvio=2
+2018-06-18 16:10:11.231375 - Info - SendSMS - out
+2018-06-18 16:10:11.231742 - Info - DBUpdate - in
+2018-06-18 16:10:11.232171 - Info - DBLogGetNextId - in
+2018-06-18 16:10:11.359200 - Info - DBLogGetNextId - out
+2018-06-18 16:10:11.359675 - Info - DBUpdate - originalId: 2169 - id: 1353 - cliente: JAQUELINE  - tipoSMS: Agradecimento de Compra - dataSMS: 2018-06-18 16:10:11 - dataVenc:  - valor: 399 - cpfcnpj:  - nota:  - cheque:  - codbarras:  - smsTransmitido: 1 - smsObs:  - telefone: 92992173767 - chaveRegistro: 11-18/06/18-272503-2169
+2018-06-18 16:10:11.392869 - Info - DBUpdate - out
+2018-06-18 16:10:11.393191 - Info - DBNext - in
+2018-06-18 16:10:11.393734 - Info - DBNext - out
+2018-06-18 16:10:11.394161 - Info - execution count: 29
+2018-06-18 16:10:11.394618 - Info - VerifySMS - in
+2018-06-18 16:10:11.395092 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "15440" and chaveRegistro = "11-18/06/18-22202-15440"
+2018-06-18 16:10:11.398183 - Info - VerifySMS - SMS ainda não processado
+2018-06-18 16:10:11.398501 - Info - VerifySMS - out
+2018-06-18 16:10:11.402363 - Info - MakeSMS - in
+2018-06-18 16:10:11.402729 - Info - MakeSMS - out
+2018-06-18 16:10:11.403166 - Info - SendSMS - in
+2018-06-18 16:10:11.405593 - Info - DBLogGetNewSMSId - in
+2018-06-18 16:10:11.442687 - Info - DBLogGetNewSMSId - out
+2018-06-18 16:10:12.175972 - Info - SMS sent - result: 1 - url:http://api.p1.sms.telle.group/integracao.do?account=marketing@transbyshop.com.br&code=i92mudar&type=E&id=6442&dispatch=send&msg=Transby+Shop%3A+AURILENE+%2C+Obrigado+por+comprar+conosco%2C+Voce+e+muito+importante+para+nos%21&to=92993453195&tipoEnvio=2
+2018-06-18 16:10:12.179485 - Info - SendSMS - out
+2018-06-18 16:10:12.179936 - Info - DBUpdate - in
+2018-06-18 16:10:12.180469 - Info - DBLogGetNextId - in
+2018-06-18 16:10:12.216841 - Info - DBLogGetNextId - out
+2018-06-18 16:10:12.217422 - Info - DBUpdate - originalId: 15440 - id: 1354 - cliente: AURILENE  - tipoSMS: Agradecimento de Compra - dataSMS: 2018-06-18 16:10:12 - dataVenc:  - valor: 149 - cpfcnpj:  - nota:  - cheque:  - codbarras:  - smsTransmitido: 1 - smsObs:  - telefone: 92993453195 - chaveRegistro: 11-18/06/18-22202-15440
+2018-06-18 16:10:12.250606 - Info - DBUpdate - out
+2018-06-18 16:10:12.251169 - Info - DBNext - in
+2018-06-18 16:10:12.251960 - Info - DBNext - out
+2018-06-18 16:10:12.252593 - Info - execution count: 30
+2018-06-18 16:10:12.253284 - Info - VerifySMS - in
+2018-06-18 16:10:12.254153 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "715" and chaveRegistro = "11-18/06/18-272511-715"
+2018-06-18 16:10:12.256134 - Info - VerifySMS - SMS ainda não processado
+2018-06-18 16:10:12.256668 - Info - VerifySMS - out
+2018-06-18 16:10:12.257103 - Info - MakeSMS - in
+2018-06-18 16:10:12.257535 - Info - MakeSMS - out
+2018-06-18 16:10:12.257958 - Info - SendSMS - in
+2018-06-18 16:10:12.258668 - Info - DBLogGetNewSMSId - in
+2018-06-18 16:10:12.308359 - Info - DBLogGetNewSMSId - out
+2018-06-18 16:10:13.125548 - Info - SMS sent - result: 1 - url:http://api.p1.sms.telle.group/integracao.do?account=marketing@transbyshop.com.br&code=i92mudar&type=E&id=6443&dispatch=send&msg=Transby+Shop%3A+MARIA+%2C+Obrigado+por+comprar+conosco%2C+Voce+e+muito+importante+para+nos%21&to=92994825987&tipoEnvio=2
+2018-06-18 16:10:13.166402 - Info - SendSMS - out
+2018-06-18 16:10:13.166758 - Info - DBUpdate - in
+2018-06-18 16:10:13.168200 - Info - DBLogGetNextId - in
+2018-06-18 16:10:13.230466 - Info - DBLogGetNextId - out
+2018-06-18 16:10:13.231001 - Info - DBUpdate - originalId: 715 - id: 1355 - cliente: MARIA  - tipoSMS: Agradecimento de Compra - dataSMS: 2018-06-18 16:10:13 - dataVenc:  - valor: 229 - cpfcnpj:  - nota:  - cheque:  - codbarras:  - smsTransmitido: 1 - smsObs:  - telefone: 92994825987 - chaveRegistro: 11-18/06/18-272511-715
+2018-06-18 16:10:13.265796 - Info - DBUpdate - out
+2018-06-18 16:10:13.266298 - Info - DBNext - in
+2018-06-18 16:10:13.266944 - Info - DBNext - out
+2018-06-18 16:10:13.267292 - Info - execution count: 31
+2018-06-18 16:10:13.267776 - Info - VerifySMS - in
+2018-06-18 16:10:13.268163 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "19066" and chaveRegistro = "11-18/06/18-145250-19066"
+2018-06-18 16:10:13.270084 - Info - VerifySMS - SMS ainda não processado
+2018-06-18 16:10:13.270486 - Info - VerifySMS - out
+2018-06-18 16:10:13.272222 - Info - MakeSMS - in
+2018-06-18 16:10:13.272707 - Info - MakeSMS - out
+2018-06-18 16:10:13.273054 - Info - SendSMS - in
+2018-06-18 16:10:13.273687 - Info - DBLogGetNewSMSId - in
+2018-06-18 16:10:13.307536 - Info - DBLogGetNewSMSId - out
+2018-06-18 16:10:14.072673 - Info - SMS sent - result: 1 - url:http://api.p1.sms.telle.group/integracao.do?account=marketing@transbyshop.com.br&code=i92mudar&type=E&id=6444&dispatch=send&msg=Transby+Shop%3A+MARIA+%2C+Obrigado+por+comprar+conosco%2C+Voce+e+muito+importante+para+nos%21&to=92992847463&tipoEnvio=2
+2018-06-18 16:10:14.076382 - Info - SendSMS - out
+2018-06-18 16:10:14.076711 - Info - DBUpdate - in
+2018-06-18 16:10:14.077183 - Info - DBLogGetNextId - in
+2018-06-18 16:10:14.122785 - Info - DBLogGetNextId - out
+2018-06-18 16:10:14.123289 - Info - DBUpdate - originalId: 19066 - id: 1356 - cliente: MARIA  - tipoSMS: Agradecimento de Compra - dataSMS: 2018-06-18 16:10:14 - dataVenc:  - valor: 409 - cpfcnpj:  - nota:  - cheque:  - codbarras:  - smsTransmitido: 1 - smsObs:  - telefone: 92992847463 - chaveRegistro: 11-18/06/18-145250-19066
+2018-06-18 16:10:14.165134 - Info - DBUpdate - out
+2018-06-18 16:10:14.165556 - Info - DBNext - in
+2018-06-18 16:10:14.167252 - Info - DBNext - out
+2018-06-18 16:10:14.167858 - Info - execution count: 32
+2018-06-18 16:10:14.168581 - Info - VerifySMS - in
+2018-06-18 16:10:14.169196 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "19088" and chaveRegistro = "11-18/06/18-22205-19088"
+2018-06-18 16:10:14.171228 - Info - VerifySMS - SMS ainda não processado
+2018-06-18 16:10:14.171667 - Info - VerifySMS - out
+2018-06-18 16:10:14.172076 - Info - MakeSMS - in
+2018-06-18 16:10:14.172679 - Info - MakeSMS - out
+2018-06-18 16:10:14.173163 - Info - SendSMS - in
+2018-06-18 16:10:14.173747 - Info - DBLogGetNewSMSId - in
+2018-06-18 16:10:14.214705 - Info - DBLogGetNewSMSId - out
+2018-06-18 16:10:15.211359 - Info - SMS sent - result: 1 - url:http://api.p1.sms.telle.group/integracao.do?account=marketing@transbyshop.com.br&code=i92mudar&type=E&id=6445&dispatch=send&msg=Transby+Shop%3A+SUELLEN+%2C+Obrigado+por+comprar+conosco%2C+Voce+e+muito+importante+para+nos%21&to=92991958558&tipoEnvio=2
+2018-06-18 16:10:15.219864 - Info - SendSMS - out
+2018-06-18 16:10:15.220191 - Info - DBUpdate - in
+2018-06-18 16:10:15.220709 - Info - DBLogGetNextId - in
+2018-06-18 16:10:15.255068 - Info - DBLogGetNextId - out
+2018-06-18 16:10:15.255479 - Info - DBUpdate - originalId: 19088 - id: 1357 - cliente: SUELLEN  - tipoSMS: Agradecimento de Compra - dataSMS: 2018-06-18 16:10:15 - dataVenc:  - valor: 210 - cpfcnpj:  - nota:  - cheque:  - codbarras:  - smsTransmitido: 1 - smsObs:  - telefone: 92991958558 - chaveRegistro: 11-18/06/18-22205-19088
+2018-06-18 16:10:15.289280 - Info - DBUpdate - out
+2018-06-18 16:10:15.289698 - Info - DBNext - in
+2018-06-18 16:10:15.290728 - Info - DBNext - out
+2018-06-18 16:10:15.291267 - Info - execution count: 33
+2018-06-18 16:10:15.291636 - Info - VerifySMS - in
+2018-06-18 16:10:15.292078 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "11189" and chaveRegistro = "11-18/06/18-145237-11189"
+2018-06-18 16:10:15.294045 - Info - VerifySMS - SMS ainda não processado
+2018-06-18 16:10:15.294499 - Info - VerifySMS - out
+2018-06-18 16:10:15.294980 - Info - MakeSMS - in
+2018-06-18 16:10:15.295579 - Info - MakeSMS - out
+2018-06-18 16:10:15.296300 - Info - SendSMS - in
+2018-06-18 16:10:15.296963 - Info - DBLogGetNewSMSId - in
+2018-06-18 16:10:15.346695 - Info - DBLogGetNewSMSId - out
+2018-06-18 16:10:16.040561 - Info - SMS sent - result: 1 - url:http://api.p1.sms.telle.group/integracao.do?account=marketing@transbyshop.com.br&code=i92mudar&type=E&id=6446&dispatch=send&msg=Transby+Shop%3A+IVONE+%2C+Obrigado+por+comprar+conosco%2C+Voce+e+muito+importante+para+nos%21&to=92993080539&tipoEnvio=2
+2018-06-18 16:10:16.050479 - Info - SendSMS - out
+2018-06-18 16:10:16.054268 - Info - DBUpdate - in
+2018-06-18 16:10:16.054801 - Info - DBLogGetNextId - in
+2018-06-18 16:10:16.087721 - Info - DBLogGetNextId - out
+2018-06-18 16:10:16.088185 - Info - DBUpdate - originalId: 11189 - id: 1358 - cliente: IVONE  - tipoSMS: Agradecimento de Compra - dataSMS: 2018-06-18 16:10:16 - dataVenc:  - valor: 359 - cpfcnpj:  - nota:  - cheque:  - codbarras:  - smsTransmitido: 1 - smsObs:  - telefone: 92993080539 - chaveRegistro: 11-18/06/18-145237-11189
+2018-06-18 16:10:16.121222 - Info - DBUpdate - out
+2018-06-18 16:10:16.121532 - Info - DBNext - in
+2018-06-18 16:10:16.122613 - Info - DBNext - out
+2018-06-18 16:10:16.123185 - Info - execution count: 34
+2018-06-18 16:10:16.123860 - Info - VerifySMS - in
+2018-06-18 16:10:16.124589 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "19056" and chaveRegistro = "11-18/06/18-272516-19056"
+2018-06-18 16:10:16.126724 - Info - VerifySMS - SMS ainda não processado
+2018-06-18 16:10:16.127002 - Info - VerifySMS - out
+2018-06-18 16:10:16.127721 - Info - MakeSMS - in
+2018-06-18 16:10:16.128322 - Info - MakeSMS - out
+2018-06-18 16:10:16.128962 - Info - SendSMS - in
+2018-06-18 16:10:16.129906 - Info - DBLogGetNewSMSId - in
+2018-06-18 16:10:16.170620 - Info - DBLogGetNewSMSId - out
+2018-06-18 16:10:16.909976 - Info - SMS sent - result: 1 - url:http://api.p1.sms.telle.group/integracao.do?account=marketing@transbyshop.com.br&code=i92mudar&type=E&id=6447&dispatch=send&msg=Transby+Shop%3A+ANTONIA+%2C+Obrigado+por+comprar+conosco%2C+Voce+e+muito+importante+para+nos%21&to=93991676519&tipoEnvio=2
+2018-06-18 16:10:16.913566 - Info - SendSMS - out
+2018-06-18 16:10:16.913919 - Info - DBUpdate - in
+2018-06-18 16:10:16.914483 - Info - DBLogGetNextId - in
+2018-06-18 16:10:16.953822 - Info - DBLogGetNextId - out
+2018-06-18 16:10:16.954225 - Info - DBUpdate - originalId: 19056 - id: 1359 - cliente: ANTONIA  - tipoSMS: Agradecimento de Compra - dataSMS: 2018-06-18 16:10:16 - dataVenc:  - valor: 2.858 - cpfcnpj:  - nota:  - cheque:  - codbarras:  - smsTransmitido: 1 - smsObs:  - telefone: 93991676519 - chaveRegistro: 11-18/06/18-272516-19056
+2018-06-18 16:10:16.986750 - Info - DBUpdate - out
+2018-06-18 16:10:16.987107 - Info - DBNext - in
+2018-06-18 16:10:16.987581 - Info - DBNext - out
+2018-06-18 16:10:16.987990 - Info - execution count: 35
+2018-06-18 16:10:16.988390 - Info - VerifySMS - in
+2018-06-18 16:10:16.989053 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "859" and chaveRegistro = "11-18/06/18-272495-859"
+2018-06-18 16:10:16.992020 - Info - VerifySMS - SMS já processado
+2018-06-18 16:10:16.992295 - Info - VerifySMS - out
+2018-06-18 16:10:16.992864 - Info - DBNext - in
+2018-06-18 16:10:16.993426 - Info - DBNext - out
+2018-06-18 16:10:16.994082 - Info - execution count: 36
+2018-06-18 16:10:16.994696 - Info - VerifySMS - in
+2018-06-18 16:10:16.995215 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "18237" and chaveRegistro = "11-18/06/18-272509-18237"
+2018-06-18 16:10:16.997054 - Info - VerifySMS - SMS ainda não processado
+2018-06-18 16:10:16.997351 - Info - VerifySMS - out
+2018-06-18 16:10:16.997882 - Info - MakeSMS - in
+2018-06-18 16:10:16.998468 - Info - MakeSMS - out
+2018-06-18 16:10:16.998976 - Info - SendSMS - in
+2018-06-18 16:10:16.999686 - Info - DBLogGetNewSMSId - in
+2018-06-18 16:10:17.036842 - Info - DBLogGetNewSMSId - out
+2018-06-18 16:10:18.018935 - Info - SMS sent - result: 1 - url:http://api.p1.sms.telle.group/integracao.do?account=marketing@transbyshop.com.br&code=i92mudar&type=E&id=6448&dispatch=send&msg=Transby+Shop%3A+MARCIA+%2C+Obrigado+por+comprar+conosco%2C+Voce+e+muito+importante+para+nos%21&to=92992201875&tipoEnvio=2
+2018-06-18 16:10:18.023982 - Info - SendSMS - out
+2018-06-18 16:10:18.024286 - Info - DBUpdate - in
+2018-06-18 16:10:18.024888 - Info - DBLogGetNextId - in
+2018-06-18 16:10:18.061050 - Info - DBLogGetNextId - out
+2018-06-18 16:10:18.061523 - Info - DBUpdate - originalId: 18237 - id: 1360 - cliente: MARCIA  - tipoSMS: Agradecimento de Compra - dataSMS: 2018-06-18 16:10:18 - dataVenc:  - valor: 51 - cpfcnpj:  - nota:  - cheque:  - codbarras:  - smsTransmitido: 1 - smsObs:  - telefone: 92992201875 - chaveRegistro: 11-18/06/18-272509-18237
+2018-06-18 16:10:18.101930 - Info - DBUpdate - out
+2018-06-18 16:10:18.102400 - Info - DBNext - in
+2018-06-18 16:10:18.103865 - Info - DBNext - out
+2018-06-18 16:10:18.104375 - Info - execution count: 37
+2018-06-18 16:10:18.104933 - Info - VerifySMS - in
+2018-06-18 16:10:18.105455 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "7697" and chaveRegistro = "11-18/06/18-145218-7697"
+2018-06-18 16:10:18.107298 - Info - VerifySMS - SMS já processado
+2018-06-18 16:10:18.107679 - Info - VerifySMS - out
+2018-06-18 16:10:18.108155 - Info - DBNext - in
+2018-06-18 16:10:18.108779 - Info - DBNext - out
+2018-06-18 16:10:18.109372 - Info - execution count: 38
+2018-06-18 16:10:18.110016 - Info - VerifySMS - in
+2018-06-18 16:10:18.110549 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "7697" and chaveRegistro = "11-18/06/18-22200-7697"
+2018-06-18 16:10:18.112469 - Info - VerifySMS - SMS já processado
+2018-06-18 16:10:18.114414 - Info - VerifySMS - out
+2018-06-18 16:10:18.114842 - Info - DBNext - in
+2018-06-18 16:10:18.123076 - Info - DBNext - out
+2018-06-18 16:10:18.123539 - Info - execution count: 39
+2018-06-18 16:10:18.126275 - Info - VerifySMS - in
+2018-06-18 16:10:18.126854 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "15850" and chaveRegistro = "11-18/06/18-272517-15850"
+2018-06-18 16:10:18.128466 - Info - VerifySMS - SMS ainda não processado
+2018-06-18 16:10:18.128856 - Info - VerifySMS - out
+2018-06-18 16:10:18.129236 - Info - MakeSMS - in
+2018-06-18 16:10:18.129717 - Info - MakeSMS - out
+2018-06-18 16:10:18.130093 - Info - SendSMS - in
+2018-06-18 16:10:18.130762 - Info - DBLogGetNewSMSId - in
+2018-06-18 16:10:18.169241 - Info - DBLogGetNewSMSId - out
+2018-06-18 16:10:18.858238 - Info - SMS sent - result: 1 - url:http://api.p1.sms.telle.group/integracao.do?account=marketing@transbyshop.com.br&code=i92mudar&type=E&id=6449&dispatch=send&msg=Transby+Shop%3A+SELMA+%2C+Obrigado+por+comprar+conosco%2C+Voce+e+muito+importante+para+nos%21&to=92993858632&tipoEnvio=2
+2018-06-18 16:10:18.861903 - Info - SendSMS - out
+2018-06-18 16:10:18.862296 - Info - DBUpdate - in
+2018-06-18 16:10:18.864490 - Info - DBLogGetNextId - in
+2018-06-18 16:10:18.901049 - Info - DBLogGetNextId - out
+2018-06-18 16:10:18.901538 - Info - DBUpdate - originalId: 15850 - id: 1361 - cliente: SELMA  - tipoSMS: Agradecimento de Compra - dataSMS: 2018-06-18 16:10:18 - dataVenc:  - valor: 99 - cpfcnpj:  - nota:  - cheque:  - codbarras:  - smsTransmitido: 1 - smsObs:  - telefone: 92993858632 - chaveRegistro: 11-18/06/18-272517-15850
+2018-06-18 16:10:18.926589 - Info - DBUpdate - out
+2018-06-18 16:10:18.927069 - Info - DBNext - in
+2018-06-18 16:10:18.927574 - Info - DBNext - out
+2018-06-18 16:10:18.928091 - Info - execution count: 40
+2018-06-18 16:10:18.928664 - Info - VerifySMS - in
+2018-06-18 16:10:18.929331 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "18060" and chaveRegistro = "11-18/06/18-34903-18060"
+2018-06-18 16:10:18.931214 - Info - VerifySMS - SMS já processado
+2018-06-18 16:10:18.931605 - Info - VerifySMS - out
+2018-06-18 16:10:18.932099 - Info - DBNext - in
+2018-06-18 16:10:18.934354 - Info - DBNext - out
+2018-06-18 16:10:18.934777 - Info - execution count: 41
+2018-06-18 16:10:18.935214 - Info - VerifySMS - in
+2018-06-18 16:10:18.935752 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "18049" and chaveRegistro = "11-18/06/18-272493-18049"
+2018-06-18 16:10:18.937454 - Info - VerifySMS - SMS já processado
+2018-06-18 16:10:18.937842 - Info - VerifySMS - out
+2018-06-18 16:10:18.938299 - Info - DBNext - in
+2018-06-18 16:10:18.938724 - Info - DBNext - out
+2018-06-18 16:10:18.939180 - Info - execution count: 42
+2018-06-18 16:10:18.939623 - Info - VerifySMS - in
+2018-06-18 16:10:18.940162 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "6136" and chaveRegistro = "11-18/06/18-272512-6136"
+2018-06-18 16:10:18.941808 - Info - VerifySMS - SMS ainda não processado
+2018-06-18 16:10:18.942209 - Info - VerifySMS - out
+2018-06-18 16:10:18.945098 - Info - MakeSMS - in
+2018-06-18 16:10:18.945533 - Info - MakeSMS - out
+2018-06-18 16:10:18.946031 - Info - SendSMS - in
+2018-06-18 16:10:18.946706 - Info - DBLogGetNewSMSId - in
+2018-06-18 16:10:18.984604 - Info - DBLogGetNewSMSId - out
+2018-06-18 16:10:19.913875 - Info - SMS sent - result: 1 - url:http://api.p1.sms.telle.group/integracao.do?account=marketing@transbyshop.com.br&code=i92mudar&type=E&id=6450&dispatch=send&msg=Transby+Shop%3A+MARIA+%2C+Obrigado+por+comprar+conosco%2C+Voce+e+muito+importante+para+nos%21&to=92992579527&tipoEnvio=2
+2018-06-18 16:10:19.919418 - Info - SendSMS - out
+2018-06-18 16:10:19.919760 - Info - DBUpdate - in
+2018-06-18 16:10:19.920265 - Info - DBLogGetNextId - in
+2018-06-18 16:10:19.984013 - Info - DBLogGetNextId - out
+2018-06-18 16:10:20.015226 - Info - DBUpdate - originalId: 6136 - id: 1362 - cliente: MARIA  - tipoSMS: Agradecimento de Compra - dataSMS: 2018-06-18 16:10:20 - dataVenc:  - valor: 220 - cpfcnpj:  - nota:  - cheque:  - codbarras:  - smsTransmitido: 1 - smsObs:  - telefone: 92992579527 - chaveRegistro: 11-18/06/18-272512-6136
+2018-06-18 16:10:20.049853 - Info - DBUpdate - out
+2018-06-18 16:10:20.050264 - Info - DBNext - in
+2018-06-18 16:10:20.051783 - Info - DBNext - out
+2018-06-18 16:10:20.052706 - Info - execution count: 43
+2018-06-18 16:10:20.053348 - Info - VerifySMS - in
+2018-06-18 16:10:20.054148 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "19724" and chaveRegistro = "11-18/06/18-272480-19724"
+2018-06-18 16:10:20.056333 - Info - VerifySMS - SMS já processado
+2018-06-18 16:10:20.056787 - Info - VerifySMS - out
+2018-06-18 16:10:20.057327 - Info - DBNext - in
+2018-06-18 16:10:20.058042 - Info - DBNext - out
+2018-06-18 16:10:20.058606 - Info - execution count: 44
+2018-06-18 16:10:20.059100 - Info - VerifySMS - in
+2018-06-18 16:10:20.059670 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "11008" and chaveRegistro = "11-18/06/18-145220-11008"
+2018-06-18 16:10:20.061571 - Info - VerifySMS - SMS já processado
+2018-06-18 16:10:20.062018 - Info - VerifySMS - out
+2018-06-18 16:10:20.066350 - Info - DBNext - in
+2018-06-18 16:10:20.067057 - Info - DBNext - out
+2018-06-18 16:10:20.069607 - Info - execution count: 45
+2018-06-18 16:10:20.070033 - Info - VerifySMS - in
+2018-06-18 16:10:20.070442 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "11008" and chaveRegistro = "11-18/06/18-145221-11008"
+2018-06-18 16:10:20.072205 - Info - VerifySMS - SMS já processado
+2018-06-18 16:10:20.072582 - Info - VerifySMS - out
+2018-06-18 16:10:20.072950 - Info - DBNext - in
+2018-06-18 16:10:20.073443 - Info - DBNext - out
+2018-06-18 16:10:20.073799 - Info - execution count: 46
+2018-06-18 16:10:20.074199 - Info - VerifySMS - in
+2018-06-18 16:10:20.077184 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "18450" and chaveRegistro = "11-18/06/18-145236-18450"
+2018-06-18 16:10:20.078876 - Info - VerifySMS - SMS ainda não processado
+2018-06-18 16:10:20.079260 - Info - VerifySMS - out
+2018-06-18 16:10:20.079920 - Info - MakeSMS - in
+2018-06-18 16:10:20.080509 - Info - MakeSMS - out
+2018-06-18 16:10:20.081107 - Info - SendSMS - in
+2018-06-18 16:10:20.081860 - Info - DBLogGetNewSMSId - in
+2018-06-18 16:10:20.108930 - Info - DBLogGetNewSMSId - out
+2018-06-18 16:10:20.788238 - Info - SMS sent - result: 1 - url:http://api.p1.sms.telle.group/integracao.do?account=marketing@transbyshop.com.br&code=i92mudar&type=E&id=6451&dispatch=send&msg=Transby+Shop%3A+JOAO+%2C+Obrigado+por+comprar+conosco%2C+Voce+e+muito+importante+para+nos%21&to=92991235200&tipoEnvio=2
+2018-06-18 16:10:20.791963 - Info - SendSMS - out
+2018-06-18 16:10:20.792285 - Info - DBUpdate - in
+2018-06-18 16:10:20.792882 - Info - DBLogGetNextId - in
+2018-06-18 16:10:20.840936 - Info - DBLogGetNextId - out
+2018-06-18 16:10:20.841337 - Info - DBUpdate - originalId: 18450 - id: 1363 - cliente: JOAO  - tipoSMS: Agradecimento de Compra - dataSMS: 2018-06-18 16:10:20 - dataVenc:  - valor: 55 - cpfcnpj:  - nota:  - cheque:  - codbarras:  - smsTransmitido: 1 - smsObs:  - telefone: 92991235200 - chaveRegistro: 11-18/06/18-145236-18450
+2018-06-18 16:10:20.874364 - Info - DBUpdate - out
+2018-06-18 16:10:20.874718 - Info - DBNext - in
+2018-06-18 16:10:20.875398 - Info - DBNext - out
+2018-06-18 16:10:20.876102 - Info - execution count: 47
+2018-06-18 16:10:20.876602 - Info - VerifySMS - in
+2018-06-18 16:10:20.877301 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "18156" and chaveRegistro = "11-18/06/18-145248-18156"
+2018-06-18 16:10:20.879431 - Info - VerifySMS - SMS ainda não processado
+2018-06-18 16:10:20.879762 - Info - VerifySMS - out
+2018-06-18 16:10:20.882008 - Info - MakeSMS - in
+2018-06-18 16:10:20.882498 - Info - MakeSMS - out
+2018-06-18 16:10:20.883010 - Info - SendSMS - in
+2018-06-18 16:10:20.883598 - Info - DBLogGetNewSMSId - in
+2018-06-18 16:10:20.932399 - Info - DBLogGetNewSMSId - out
+2018-06-18 16:10:21.845508 - Info - SMS sent - result: 1 - url:http://api.p1.sms.telle.group/integracao.do?account=marketing@transbyshop.com.br&code=i92mudar&type=E&id=6452&dispatch=send&msg=Transby+Shop%3A+ELIANA+%2C+Obrigado+por+comprar+conosco%2C+Voce+e+muito+importante+para+nos%21&to=92992065571&tipoEnvio=2
+2018-06-18 16:10:21.849170 - Info - SendSMS - out
+2018-06-18 16:10:21.849488 - Info - DBUpdate - in
+2018-06-18 16:10:21.849911 - Info - DBLogGetNextId - in
+2018-06-18 16:10:21.889728 - Info - DBLogGetNextId - out
+2018-06-18 16:10:21.890184 - Info - DBUpdate - originalId: 18156 - id: 1364 - cliente: ELIANA  - tipoSMS: Agradecimento de Compra - dataSMS: 2018-06-18 16:10:21 - dataVenc:  - valor: 1.339 - cpfcnpj:  - nota:  - cheque:  - codbarras:  - smsTransmitido: 1 - smsObs:  - telefone: 92992065571 - chaveRegistro: 11-18/06/18-145248-18156
+2018-06-18 16:10:21.923826 - Info - DBUpdate - out
+2018-06-18 16:10:21.924293 - Info - DBNext - in
+2018-06-18 16:10:21.924934 - Info - DBNext - out
+2018-06-18 16:10:21.925321 - Info - execution count: 48
+2018-06-18 16:10:21.925764 - Info - VerifySMS - in
+2018-06-18 16:10:21.926374 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "19088" and chaveRegistro = "11-18/06/18-22204-19088"
+2018-06-18 16:10:21.929332 - Info - VerifySMS - SMS ainda não processado
+2018-06-18 16:10:21.929642 - Info - VerifySMS - out
+2018-06-18 16:10:21.930159 - Info - MakeSMS - in
+2018-06-18 16:10:21.930608 - Info - MakeSMS - out
+2018-06-18 16:10:21.931015 - Info - SendSMS - in
+2018-06-18 16:10:21.931489 - Info - DBLogGetNewSMSId - in
+2018-06-18 16:10:21.981744 - Info - DBLogGetNewSMSId - out
+2018-06-18 16:10:22.729252 - Info - SMS sent - result: 1 - url:http://api.p1.sms.telle.group/integracao.do?account=marketing@transbyshop.com.br&code=i92mudar&type=E&id=6453&dispatch=send&msg=Transby+Shop%3A+SUELLEN+%2C+Obrigado+por+comprar+conosco%2C+Voce+e+muito+importante+para+nos%21&to=92991958558&tipoEnvio=2
+2018-06-18 16:10:22.779810 - Info - SendSMS - out
+2018-06-18 16:10:22.780250 - Info - DBUpdate - in
+2018-06-18 16:10:22.781946 - Info - DBLogGetNextId - in
+2018-06-18 16:10:22.822064 - Info - DBLogGetNextId - out
+2018-06-18 16:10:22.822535 - Info - DBUpdate - originalId: 19088 - id: 1365 - cliente: SUELLEN  - tipoSMS: Agradecimento de Compra - dataSMS: 2018-06-18 16:10:22 - dataVenc:  - valor: 199 - cpfcnpj:  - nota:  - cheque:  - codbarras:  - smsTransmitido: 1 - smsObs:  - telefone: 92991958558 - chaveRegistro: 11-18/06/18-22204-19088
+2018-06-18 16:10:22.883133 - Info - DBUpdate - out
+2018-06-18 16:10:22.883566 - Info - DBNext - in
+2018-06-18 16:10:22.884569 - Info - DBNext - out
+2018-06-18 16:10:22.885085 - Info - execution count: 49
+2018-06-18 16:10:22.885746 - Info - VerifySMS - in
+2018-06-18 16:10:22.886329 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "18049" and chaveRegistro = "11-18/06/18-272492-18049"
+2018-06-18 16:10:22.891704 - Info - VerifySMS - SMS já processado
+2018-06-18 16:10:22.892185 - Info - VerifySMS - out
+2018-06-18 16:10:22.892825 - Info - DBNext - in
+2018-06-18 16:10:22.893500 - Info - DBNext - out
+2018-06-18 16:10:22.894058 - Info - execution count: 50
+2018-06-18 16:10:22.894665 - Info - VerifySMS - in
+2018-06-18 16:10:22.895107 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "17384" and chaveRegistro = "11-18/06/18-272498-17384"
+2018-06-18 16:10:22.899083 - Info - VerifySMS - SMS já processado
+2018-06-18 16:10:22.906216 - Info - VerifySMS - out
+2018-06-18 16:10:22.906738 - Info - DBNext - in
+2018-06-18 16:10:22.907242 - Info - DBNext - out
+2018-06-18 16:10:22.907725 - Info - execution count: 51
+2018-06-18 16:10:22.908228 - Info - VerifySMS - in
+2018-06-18 16:10:22.908755 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "18107" and chaveRegistro = "11-18/06/18-22197-18107"
+2018-06-18 16:10:22.910954 - Info - VerifySMS - SMS já processado
+2018-06-18 16:10:22.912903 - Info - VerifySMS - out
+2018-06-18 16:10:22.913411 - Info - DBNext - in
+2018-06-18 16:10:22.913859 - Info - DBNext - out
+2018-06-18 16:10:22.914312 - Info - execution count: 52
+2018-06-18 16:10:22.914765 - Info - VerifySMS - in
+2018-06-18 16:10:22.915407 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "18827" and chaveRegistro = "11-18/06/18-145223-18827"
+2018-06-18 16:10:22.917239 - Info - VerifySMS - SMS já processado
+2018-06-18 16:10:22.917599 - Info - VerifySMS - out
+2018-06-18 16:10:22.918093 - Info - DBNext - in
+2018-06-18 16:10:22.918570 - Info - DBNext - out
+2018-06-18 16:10:22.919072 - Info - execution count: 53
+2018-06-18 16:10:22.919417 - Info - VerifySMS - in
+2018-06-18 16:10:22.919821 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "4900" and chaveRegistro = "11-18/06/18-34908-4900"
+2018-06-18 16:10:22.921480 - Info - VerifySMS - SMS já processado
+2018-06-18 16:10:22.921855 - Info - VerifySMS - out
+2018-06-18 16:10:22.922342 - Info - DBNext - in
+2018-06-18 16:10:22.922772 - Info - DBNext - out
+2018-06-18 16:10:22.923197 - Info - execution count: 54
+2018-06-18 16:10:22.923590 - Info - VerifySMS - in
+2018-06-18 16:10:22.924123 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "11695" and chaveRegistro = "11-18/06/18-34910-11695"
+2018-06-18 16:10:22.925787 - Info - VerifySMS - SMS já processado
+2018-06-18 16:10:22.926198 - Info - VerifySMS - out
+2018-06-18 16:10:22.926638 - Info - DBNext - in
+2018-06-18 16:10:22.936142 - Info - DBNext - out
+2018-06-18 16:10:22.936492 - Info - execution count: 55
+2018-06-18 16:10:22.936951 - Info - VerifySMS - in
+2018-06-18 16:10:22.937685 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "13948" and chaveRegistro = "11-18/06/18-145234-13948"
+2018-06-18 16:10:22.940118 - Info - VerifySMS - SMS ainda não processado
+2018-06-18 16:10:22.942246 - Info - VerifySMS - out
+2018-06-18 16:10:22.942766 - Info - MakeSMS - in
+2018-06-18 16:10:22.943373 - Info - MakeSMS - out
+2018-06-18 16:10:22.944060 - Info - SendSMS - in
+2018-06-18 16:10:22.944830 - Info - DBLogGetNewSMSId - in
+2018-06-18 16:10:22.997143 - Info - DBLogGetNewSMSId - out
+2018-06-18 16:10:24.545318 - Info - SMS sent - result: 1 - url:http://api.p1.sms.telle.group/integracao.do?account=marketing@transbyshop.com.br&code=i92mudar&type=E&id=6454&dispatch=send&msg=Transby+Shop%3A+CELIA+%2C+Obrigado+por+comprar+conosco%2C+Voce+e+muito+importante+para+nos%21&to=92991332567&tipoEnvio=2
+2018-06-18 16:10:24.555175 - Info - SendSMS - out
+2018-06-18 16:10:24.555518 - Info - DBUpdate - in
+2018-06-18 16:10:24.556108 - Info - DBLogGetNextId - in
+2018-06-18 16:10:25.585351 - Info - DBLogGetNextId - out
+2018-06-18 16:10:26.236503 - Info - DBUpdate - originalId: 13948 - id: 1366 - cliente: CELIA  - tipoSMS: Agradecimento de Compra - dataSMS: 2018-06-18 16:10:26 - dataVenc:  - valor: 79 - cpfcnpj:  - nota:  - cheque:  - codbarras:  - smsTransmitido: 1 - smsObs:  - telefone: 92991332567 - chaveRegistro: 11-18/06/18-145234-13948
+2018-06-18 16:10:26.285697 - Info - DBUpdate - out
+2018-06-18 16:10:26.286083 - Info - DBNext - in
+2018-06-18 16:10:26.288297 - Info - DBNext - out
+2018-06-18 16:10:26.288794 - Info - execution count: 56
+2018-06-18 16:10:26.289267 - Info - VerifySMS - in
+2018-06-18 16:10:26.289664 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "18450" and chaveRegistro = "11-18/06/18-145235-18450"
+2018-06-18 16:10:26.291682 - Info - VerifySMS - SMS ainda não processado
+2018-06-18 16:10:26.292089 - Info - VerifySMS - out
+2018-06-18 16:10:26.292659 - Info - MakeSMS - in
+2018-06-18 16:10:26.294380 - Info - MakeSMS - out
+2018-06-18 16:10:26.295148 - Info - SendSMS - in
+2018-06-18 16:10:26.299964 - Info - DBLogGetNewSMSId - in
+2018-06-18 16:10:26.335613 - Info - DBLogGetNewSMSId - out
+2018-06-18 16:10:27.108339 - Info - SMS sent - result: 1 - url:http://api.p1.sms.telle.group/integracao.do?account=marketing@transbyshop.com.br&code=i92mudar&type=E&id=6455&dispatch=send&msg=Transby+Shop%3A+JOAO+%2C+Obrigado+por+comprar+conosco%2C+Voce+e+muito+importante+para+nos%21&to=92991235200&tipoEnvio=2
+2018-06-18 16:10:27.123617 - Info - SendSMS - out
+2018-06-18 16:10:27.123970 - Info - DBUpdate - in
+2018-06-18 16:10:27.124586 - Info - DBLogGetNextId - in
+2018-06-18 16:10:27.159050 - Info - DBLogGetNextId - out
+2018-06-18 16:10:27.159462 - Info - DBUpdate - originalId: 18450 - id: 1367 - cliente: JOAO  - tipoSMS: Agradecimento de Compra - dataSMS: 2018-06-18 16:10:27 - dataVenc:  - valor: 59 - cpfcnpj:  - nota:  - cheque:  - codbarras:  - smsTransmitido: 1 - smsObs:  - telefone: 92991235200 - chaveRegistro: 11-18/06/18-145235-18450
+2018-06-18 16:10:27.185072 - Info - DBUpdate - out
+2018-06-18 16:10:27.185447 - Info - DBNext - in
+2018-06-18 16:10:27.187009 - Info - DBNext - out
+2018-06-18 16:10:27.187563 - Info - execution count: 57
+2018-06-18 16:10:27.188099 - Info - VerifySMS - in
+2018-06-18 16:10:27.188670 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "18450" and chaveRegistro = "11-18/06/18-22201-18450"
+2018-06-18 16:10:27.190521 - Info - VerifySMS - SMS ainda não processado
+2018-06-18 16:10:27.191018 - Info - VerifySMS - out
+2018-06-18 16:10:27.191590 - Info - MakeSMS - in
+2018-06-18 16:10:27.192183 - Info - MakeSMS - out
+2018-06-18 16:10:27.192707 - Info - SendSMS - in
+2018-06-18 16:10:27.193470 - Info - DBLogGetNewSMSId - in
+2018-06-18 16:10:27.242380 - Info - DBLogGetNewSMSId - out
+2018-06-18 16:10:28.280275 - Info - SMS sent - result: 1 - url:http://api.p1.sms.telle.group/integracao.do?account=marketing@transbyshop.com.br&code=i92mudar&type=E&id=6456&dispatch=send&msg=Transby+Shop%3A+JOAO+%2C+Obrigado+por+comprar+conosco%2C+Voce+e+muito+importante+para+nos%21&to=92991235200&tipoEnvio=2
+2018-06-18 16:10:28.287578 - Info - SendSMS - out
+2018-06-18 16:10:28.287897 - Info - DBUpdate - in
+2018-06-18 16:10:28.288533 - Info - DBLogGetNextId - in
+2018-06-18 16:10:28.324371 - Info - DBLogGetNextId - out
+2018-06-18 16:10:28.324783 - Info - DBUpdate - originalId: 18450 - id: 1368 - cliente: JOAO  - tipoSMS: Agradecimento de Compra - dataSMS: 2018-06-18 16:10:28 - dataVenc:  - valor: 65 - cpfcnpj:  - nota:  - cheque:  - codbarras:  - smsTransmitido: 1 - smsObs:  - telefone: 92991235200 - chaveRegistro: 11-18/06/18-22201-18450
+2018-06-18 16:10:28.349886 - Info - DBUpdate - out
+2018-06-18 16:10:28.350180 - Info - DBNext - in
+2018-06-18 16:10:28.350784 - Info - DBNext - out
+2018-06-18 16:10:28.351353 - Info - execution count: 58
+2018-06-18 16:10:28.351900 - Info - VerifySMS - in
+2018-06-18 16:10:28.354167 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "13220" and chaveRegistro = "11-18/06/18-145238-13220"
+2018-06-18 16:10:28.356054 - Info - VerifySMS - SMS ainda não processado
+2018-06-18 16:10:28.356441 - Info - VerifySMS - out
+2018-06-18 16:10:28.357022 - Info - MakeSMS - in
+2018-06-18 16:10:28.357696 - Info - MakeSMS - out
+2018-06-18 16:10:28.358364 - Info - SendSMS - in
+2018-06-18 16:10:28.359146 - Info - DBLogGetNewSMSId - in
+2018-06-18 16:10:28.399878 - Info - DBLogGetNewSMSId - out
+2018-06-18 16:10:29.170884 - Info - SMS sent - result: 1 - url:http://api.p1.sms.telle.group/integracao.do?account=marketing@transbyshop.com.br&code=i92mudar&type=E&id=6457&dispatch=send&msg=Transby+Shop%3A+ANTONIA+%2C+Obrigado+por+comprar+conosco%2C+Voce+e+muito+importante+para+nos%21&to=92994938295&tipoEnvio=2
+2018-06-18 16:10:29.179170 - Info - SendSMS - out
+2018-06-18 16:10:29.179481 - Info - DBUpdate - in
+2018-06-18 16:10:29.179976 - Info - DBLogGetNextId - in
+2018-06-18 16:10:29.206799 - Info - DBLogGetNextId - out
+2018-06-18 16:10:29.207163 - Info - DBUpdate - originalId: 13220 - id: 1369 - cliente: ANTONIA  - tipoSMS: Agradecimento de Compra - dataSMS: 2018-06-18 16:10:29 - dataVenc:  - valor: 1.029 - cpfcnpj:  - nota:  - cheque:  - codbarras:  - smsTransmitido: 1 - smsObs:  - telefone: 92994938295 - chaveRegistro: 11-18/06/18-145238-13220
+2018-06-18 16:10:29.232822 - Info - DBUpdate - out
+2018-06-18 16:10:29.233184 - Info - DBNext - in
+2018-06-18 16:10:29.234949 - Info - DBNext - out
+2018-06-18 16:10:29.235435 - Info - execution count: 59
+2018-06-18 16:10:29.235980 - Info - VerifySMS - in
+2018-06-18 16:10:29.236496 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "16769" and chaveRegistro = "11-18/06/18-145246-16769"
+2018-06-18 16:10:29.238354 - Info - VerifySMS - SMS ainda não processado
+2018-06-18 16:10:29.238886 - Info - VerifySMS - out
+2018-06-18 16:10:29.239411 - Info - MakeSMS - in
+2018-06-18 16:10:29.239949 - Info - MakeSMS - out
+2018-06-18 16:10:29.240482 - Info - SendSMS - in
+2018-06-18 16:10:29.241198 - Info - DBLogGetNewSMSId - in
+2018-06-18 16:10:29.281586 - Info - DBLogGetNewSMSId - out
+2018-06-18 16:10:30.032026 - Info - SMS sent - result: 1 - url:http://api.p1.sms.telle.group/integracao.do?account=marketing@transbyshop.com.br&code=i92mudar&type=E&id=6458&dispatch=send&msg=Transby+Shop%3A+ANA+%2C+Obrigado+por+comprar+conosco%2C+Voce+e+muito+importante+para+nos%21&to=92992415370&tipoEnvio=2
+2018-06-18 16:10:30.035673 - Info - SendSMS - out
+2018-06-18 16:10:30.036021 - Info - DBUpdate - in
+2018-06-18 16:10:30.036589 - Info - DBLogGetNextId - in
+2018-06-18 16:10:30.080705 - Info - DBLogGetNextId - out
+2018-06-18 16:10:30.081326 - Info - DBUpdate - originalId: 16769 - id: 1370 - cliente: ANA  - tipoSMS: Agradecimento de Compra - dataSMS: 2018-06-18 16:10:30 - dataVenc:  - valor: 259 - cpfcnpj:  - nota:  - cheque:  - codbarras:  - smsTransmitido: 1 - smsObs:  - telefone: 92992415370 - chaveRegistro: 11-18/06/18-145246-16769
+2018-06-18 16:10:30.114995 - Info - DBUpdate - out
+2018-06-18 16:10:30.115398 - Info - DBNext - in
+2018-06-18 16:10:30.116848 - Info - DBNext - out
+2018-06-18 16:10:30.117465 - Info - execution count: 60
+2018-06-18 16:10:30.118200 - Info - VerifySMS - in
+2018-06-18 16:10:30.118779 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "16769" and chaveRegistro = "11-18/06/18-22203-16769"
+2018-06-18 16:10:30.120590 - Info - VerifySMS - SMS ainda não processado
+2018-06-18 16:10:30.120980 - Info - VerifySMS - out
+2018-06-18 16:10:30.121512 - Info - MakeSMS - in
+2018-06-18 16:10:30.122013 - Info - MakeSMS - out
+2018-06-18 16:10:30.122443 - Info - SendSMS - in
+2018-06-18 16:10:30.123001 - Info - DBLogGetNewSMSId - in
+2018-06-18 16:10:30.172713 - Info - DBLogGetNewSMSId - out
+2018-06-18 16:10:30.933673 - Info - SMS sent - result: 1 - url:http://api.p1.sms.telle.group/integracao.do?account=marketing@transbyshop.com.br&code=i92mudar&type=E&id=6459&dispatch=send&msg=Transby+Shop%3A+ANA+%2C+Obrigado+por+comprar+conosco%2C+Voce+e+muito+importante+para+nos%21&to=92992415370&tipoEnvio=2
+2018-06-18 16:10:30.972785 - Info - SendSMS - out
+2018-06-18 16:10:30.973264 - Info - DBUpdate - in
+2018-06-18 16:10:30.974866 - Info - DBLogGetNextId - in
+2018-06-18 16:10:31.063116 - Info - DBLogGetNextId - out
+2018-06-18 16:10:31.063612 - Info - DBUpdate - originalId: 16769 - id: 1371 - cliente: ANA  - tipoSMS: Agradecimento de Compra - dataSMS: 2018-06-18 16:10:31 - dataVenc:  - valor: 205 - cpfcnpj:  - nota:  - cheque:  - codbarras:  - smsTransmitido: 1 - smsObs:  - telefone: 92992415370 - chaveRegistro: 11-18/06/18-22203-16769
+2018-06-18 16:10:31.097347 - Info - DBUpdate - out
+2018-06-18 16:10:31.097840 - Info - DBNext - in
+2018-06-18 16:10:31.098253 - Info - DBNext - out
+2018-06-18 16:10:31.100240 - Info - execution count: 61
+2018-06-18 16:10:31.100686 - Info - VerifySMS - in
+2018-06-18 16:10:31.101138 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "2169" and chaveRegistro = "11-18/06/18-34911-2169"
+2018-06-18 16:10:31.102986 - Info - VerifySMS - SMS já processado
+2018-06-18 16:10:31.103392 - Info - VerifySMS - out
+2018-06-18 16:10:31.103961 - Info - DBNext - in
+2018-06-18 16:10:31.106292 - Info - DBNext - out
+2018-06-18 16:10:31.106700 - Info - execution count: 62
+2018-06-18 16:10:31.107302 - Info - VerifySMS - in
+2018-06-18 16:10:31.111497 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "6136" and chaveRegistro = "11-18/06/18-272514-6136"
+2018-06-18 16:10:31.113266 - Info - VerifySMS - SMS ainda não processado
+2018-06-18 16:10:31.113627 - Info - VerifySMS - out
+2018-06-18 16:10:31.118931 - Info - MakeSMS - in
+2018-06-18 16:10:31.126064 - Info - MakeSMS - out
+2018-06-18 16:10:31.126522 - Info - SendSMS - in
+2018-06-18 16:10:31.127057 - Info - DBLogGetNewSMSId - in
+2018-06-18 16:10:31.155101 - Info - DBLogGetNewSMSId - out
+2018-06-18 16:10:31.968544 - Info - SMS sent - result: 1 - url:http://api.p1.sms.telle.group/integracao.do?account=marketing@transbyshop.com.br&code=i92mudar&type=E&id=6460&dispatch=send&msg=Transby+Shop%3A+MARIA+%2C+Obrigado+por+comprar+conosco%2C+Voce+e+muito+importante+para+nos%21&to=92992579527&tipoEnvio=2
+2018-06-18 16:10:31.972297 - Info - SendSMS - out
+2018-06-18 16:10:31.972656 - Info - DBUpdate - in
+2018-06-18 16:10:31.973125 - Info - DBLogGetNextId - in
+2018-06-18 16:10:32.012555 - Info - DBLogGetNextId - out
+2018-06-18 16:10:32.013065 - Info - DBUpdate - originalId: 6136 - id: 1372 - cliente: MARIA  - tipoSMS: Agradecimento de Compra - dataSMS: 2018-06-18 16:10:32 - dataVenc:  - valor: 92 - cpfcnpj:  - nota:  - cheque:  - codbarras:  - smsTransmitido: 1 - smsObs:  - telefone: 92992579527 - chaveRegistro: 11-18/06/18-272514-6136
+2018-06-18 16:10:32.046241 - Info - DBUpdate - out
+2018-06-18 16:10:32.046716 - Info - DBNext - in
+2018-06-18 16:10:32.047470 - Info - DBNext - out
+2018-06-18 16:10:32.048111 - Info - execution count: 63
+2018-06-18 16:10:32.048877 - Info - VerifySMS - in
+2018-06-18 16:10:32.049542 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "1325" and chaveRegistro = "11-18/06/18-145211-1325"
+2018-06-18 16:10:32.053280 - Info - VerifySMS - SMS já processado
+2018-06-18 16:10:32.054003 - Info - VerifySMS - out
+2018-06-18 16:10:32.054445 - Info - DBNext - in
+2018-06-18 16:10:32.055008 - Info - DBNext - out
+2018-06-18 16:10:32.058157 - Info - execution count: 64
+2018-06-18 16:10:32.058684 - Info - VerifySMS - in
+2018-06-18 16:10:32.059287 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Agradecimento de Compra" and originalId = "19641" and chaveRegistro = "11-18/06/18-272515-19641"
+2018-06-18 16:10:32.061184 - Info - VerifySMS - SMS ainda não processado
+2018-06-18 16:10:32.061534 - Info - VerifySMS - out
+2018-06-18 16:10:32.062230 - Info - MakeSMS - in
+2018-06-18 16:10:32.062866 - Info - MakeSMS - out
+2018-06-18 16:10:32.063360 - Info - SendSMS - in
+2018-06-18 16:10:32.064004 - Info - DBLogGetNewSMSId - in
+2018-06-18 16:10:32.104160 - Info - DBLogGetNewSMSId - out
+2018-06-18 16:10:32.796108 - Info - SMS sent - result: 1 - url:http://api.p1.sms.telle.group/integracao.do?account=marketing@transbyshop.com.br&code=i92mudar&type=E&id=6461&dispatch=send&msg=Transby+Shop%3A+CLENILDE+%2C+Obrigado+por+comprar+conosco%2C+Voce+e+muito+importante+para+nos%21&to=92994309310&tipoEnvio=2
+2018-06-18 16:10:32.799736 - Info - SendSMS - out
+2018-06-18 16:10:32.800146 - Info - DBUpdate - in
+2018-06-18 16:10:32.800661 - Info - DBLogGetNextId - in
+2018-06-18 16:10:32.828212 - Info - DBLogGetNextId - out
+2018-06-18 16:10:32.828674 - Info - DBUpdate - originalId: 19641 - id: 1373 - cliente: CLENILDE  - tipoSMS: Agradecimento de Compra - dataSMS: 2018-06-18 16:10:32 - dataVenc:  - valor: 209 - cpfcnpj:  - nota:  - cheque:  - codbarras:  - smsTransmitido: 1 - smsObs:  - telefone: 92994309310 - chaveRegistro: 11-18/06/18-272515-19641
+2018-06-18 16:10:32.961399 - Info - DBUpdate - out
+2018-06-18 16:10:32.962100 - Info - DBNext - in
+2018-06-18 16:10:32.963613 - Info - DBNext - out
+2018-06-18 16:10:32.964164 - Info - DBDisconnect - in
+2018-06-18 16:10:32.966851 - Info - DBDisconnect - out
+2018-06-18 16:10:32.967163 - Info - DBLogDisconnect - in
+2018-06-18 16:10:32.967726 - Info - DBLogDisconnect - out
+2018-06-18 16:10:32.968099 - Info - execute - out
+2018-06-18 16:15:51.863304 - Info - execute - in
+2018-06-18 16:15:51.863900 - Info - DBConnect - in
+2018-06-18 16:15:52.029745 - Info - DBConnect - out
+2018-06-18 16:15:52.030122 - Info - DBLogConnect - in
+2018-06-18 16:15:52.050143 - Info - DBLogConnect - out
+2018-06-18 16:15:52.050548 - Info - DBOpen - in
+2018-06-18 16:15:52.091032 - Info - DBOpen - out
+2018-06-18 16:15:52.091455 - Info - DBFirst - in
+2018-06-18 16:15:52.091934 - Info - DBFirst - out
+2018-06-18 16:15:52.092372 - Info - execution count: 0
+2018-06-18 16:15:52.092815 - Info - VerifySMS - in
+2018-06-18 16:15:52.093232 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Novo Cadastro" and originalId = "19796" and chaveRegistro = "12-18/06/18-19796"
+2018-06-18 16:15:52.094972 - Info - VerifySMS - SMS ainda não processado
+2018-06-18 16:15:52.095274 - Info - VerifySMS - out
+2018-06-18 16:15:52.095735 - Info - MakeSMS - in
+2018-06-18 16:15:52.096129 - Info - MakeSMS - out
+2018-06-18 16:15:52.096446 - Info - SendSMS - in
+2018-06-18 16:15:52.104944 - Info - DBLogGetNewSMSId - in
+2018-06-18 16:15:52.164850 - Info - DBLogGetNewSMSId - out
+2018-06-18 16:15:53.100688 - Info - SMS sent - result: 1 - url:http://api.p1.sms.telle.group/integracao.do?account=marketing@transbyshop.com.br&code=i92mudar&type=E&id=6462&dispatch=send&msg=Transby+Shop%3A+EDINEIDA+%2C+E+uma+enorme+satisfacao+iniciar+esta+parceria+de+sucesso+com+voce%2C+muito+obrigado+por+escolher+a+Transby+Shop%21&to=92991333570&tipoEnvio=2
+2018-06-18 16:15:53.108207 - Info - SendSMS - out
+2018-06-18 16:15:53.108490 - Info - DBUpdate - in
+2018-06-18 16:15:53.108962 - Info - DBLogGetNextId - in
+2018-06-18 16:15:53.155600 - Info - DBLogGetNextId - out
+2018-06-18 16:15:53.156271 - Info - DBUpdate - originalId: 19796 - id: 1374 - cliente: EDINEIDA  - tipoSMS: Novo Cadastro - dataSMS: 2018-06-18 16:15:53 - dataVenc:  - valor: 0 - cpfcnpj:  - nota:  - cheque:  - codbarras:  - smsTransmitido: 1 - smsObs:  - telefone: 92991333570 - chaveRegistro: 12-18/06/18-19796
+2018-06-18 16:15:53.205831 - Info - DBUpdate - out
+2018-06-18 16:15:53.206309 - Info - DBNext - in
+2018-06-18 16:15:53.212554 - Info - DBNext - out
+2018-06-18 16:15:53.212939 - Info - execution count: 1
+2018-06-18 16:15:53.213337 - Info - VerifySMS - in
+2018-06-18 16:15:53.218695 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Novo Cadastro" and originalId = "19798" and chaveRegistro = "12-18/06/18-19798"
+2018-06-18 16:15:53.221346 - Info - VerifySMS - SMS ainda não processado
+2018-06-18 16:15:53.228252 - Info - VerifySMS - out
+2018-06-18 16:15:53.228654 - Info - MakeSMS - in
+2018-06-18 16:15:53.229337 - Info - MakeSMS - out
+2018-06-18 16:15:53.237220 - Info - SendSMS - in
+2018-06-18 16:15:53.240012 - Info - DBLogGetNewSMSId - in
+2018-06-18 16:15:53.280561 - Info - DBLogGetNewSMSId - out
+2018-06-18 16:15:54.218561 - Info - SMS sent - result: 1 - url:http://api.p1.sms.telle.group/integracao.do?account=marketing@transbyshop.com.br&code=i92mudar&type=E&id=6463&dispatch=send&msg=Transby+Shop%3A+V+DE+S+MORAIS+-+ME%2C+E+uma+enorme+satisfacao+iniciar+esta+parceria+de+sucesso+com+voce%2C+muito+obrigado+por+escolher+a+Transby+Shop%21&to=92994967154&tipoEnvio=2
+2018-06-18 16:15:54.248793 - Info - SendSMS - out
+2018-06-18 16:15:54.249122 - Info - DBUpdate - in
+2018-06-18 16:15:54.249727 - Info - DBLogGetNextId - in
+2018-06-18 16:15:54.279752 - Info - DBLogGetNextId - out
+2018-06-18 16:15:54.280165 - Info - DBUpdate - originalId: 19798 - id: 1375 - cliente: V DE S MORAIS - ME - tipoSMS: Novo Cadastro - dataSMS: 2018-06-18 16:15:54 - dataVenc:  - valor: 0 - cpfcnpj:  - nota:  - cheque:  - codbarras:  - smsTransmitido: 1 - smsObs:  - telefone: 92994967154 - chaveRegistro: 12-18/06/18-19798
+2018-06-18 16:15:54.313021 - Info - DBUpdate - out
+2018-06-18 16:15:54.313443 - Info - DBNext - in
+2018-06-18 16:15:54.313884 - Info - DBNext - out
+2018-06-18 16:15:54.314354 - Info - execution count: 2
+2018-06-18 16:15:54.318065 - Info - VerifySMS - in
+2018-06-18 16:15:54.318545 - Info - VerifySMS - Select: select 1 from logSMS where tipoSMS = "Novo Cadastro" and originalId = "19797" and chaveRegistro = "12-18/06/18-19797"
+2018-06-18 16:15:54.320446 - Info - VerifySMS - SMS ainda não processado
+2018-06-18 16:15:54.320806 - Info - VerifySMS - out
+2018-06-18 16:15:54.321322 - Info - MakeSMS - in
+2018-06-18 16:15:54.321824 - Info - MakeSMS - out
+2018-06-18 16:15:54.322330 - Info - SendSMS - in
+2018-06-18 16:15:54.323047 - Info - DBLogGetNewSMSId - in
+2018-06-18 16:15:54.379137 - Info - DBLogGetNewSMSId - out
+2018-06-18 16:15:55.351064 - Info - SMS sent - result: 1 - url:http://api.p1.sms.telle.group/integracao.do?account=marketing@transbyshop.com.br&code=i92mudar&type=E&id=6464&dispatch=send&msg=Transby+Shop%3A+NAIRA+%2C+E+uma+enorme+satisfacao+iniciar+esta+parceria+de+sucesso+com+voce%2C+muito+obrigado+por+escolher+a+Transby+Shop%21&to=92994308205&tipoEnvio=2
+2018-06-18 16:15:55.369700 - Info - SendSMS - out
+2018-06-18 16:15:55.372727 - Info - DBUpdate - in
+2018-06-18 16:15:55.373096 - Info - DBLogGetNextId - in
+2018-06-18 16:15:55.411723 - Info - DBLogGetNextId - out
+2018-06-18 16:15:55.412247 - Info - DBUpdate - originalId: 19797 - id: 1376 - cliente: NAIRA  - tipoSMS: Novo Cadastro - dataSMS: 2018-06-18 16:15:55 - dataVenc:  - valor: 0 - cpfcnpj:  - nota:  - cheque:  - codbarras:  - smsTransmitido: 1 - smsObs:  - telefone: 92994308205 - chaveRegistro: 12-18/06/18-19797
+2018-06-18 16:15:55.444512 - Info - DBUpdate - out
+2018-06-18 16:15:55.444986 - Info - DBNext - in
+2018-06-18 16:15:55.446683 - Info - DBNext - out
+2018-06-18 16:15:55.451452 - Info - DBDisconnect - in
+2018-06-18 16:15:55.456831 - Info - DBDisconnect - out
+2018-06-18 16:15:55.463496 - Info - DBLogDisconnect - in
+2018-06-18 16:15:55.467386 - Info - DBLogDisconnect - out
+2018-06-18 16:15:55.471873 - Info - execute - out
+2018-06-18 16:16:08.071311 - Info - execute - in
+2018-06-18 16:16:08.071899 - Info - DBConnect - in
+2018-06-18 16:16:08.195371 - Info - DBConnect - out
+2018-06-18 16:16:08.195781 - Info - DBLogConnect - in
+2018-06-18 16:16:08.206332 - Info - DBLogConnect - out
+2018-06-18 16:16:08.206752 - Info - DBOpen - in
+2018-06-18 16:16:08.209753 - Info - DBOpen - out
+2018-06-18 16:16:08.210125 - Info - DBFirst - in
+2018-06-18 16:16:08.210495 - Info - DBFirst - out
+2018-06-18 16:16:08.210886 - Info - DBDisconnect - in
+2018-06-18 16:16:08.213081 - Info - DBDisconnect - out
+2018-06-18 16:16:08.213479 - Info - DBLogDisconnect - in
+2018-06-18 16:16:08.213946 - Info - DBLogDisconnect - out
+2018-06-18 16:16:08.214241 - Info - execute - out
